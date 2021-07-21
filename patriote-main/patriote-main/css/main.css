@@ -8,16 +8,6 @@
     display: flex;
 }
 
-.banner {
-    flex-shrink: 0;
-    flex-grow: 0;
-    flex-basis: 10%;
-}
-
-.banner-right {
-    order: 1;
-}
-
 header {
     display: flex;
     justify-content: space-around;
@@ -67,7 +57,7 @@ header ul {
     color: lightgoldenrodyellow;
     width: 100vw;
     height: 100vh;
-    background-image: url("../images/boxing-ring.jpg");
+    background-image: url("../images/boxing0.jpg");
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -120,126 +110,85 @@ article section img {
     line-height: 1.5;
 }
 
-.banner-left {
+.banner {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 10%;
     background-color:whitesmoke;
 }
 
 .banner-right {
-    background-color:whitesmoke;
+    order: 1;
 }
 
-.logo-aside-left {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 80px;
-    margin: 30px;
-}
-
-.logo-aside-right {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 80px;
-    margin: 30px;
-}
-
-.logo-aside-first {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 80px;
-    margin: 30px;
+.banner h3 {
     text-align: center;
-    color: gold;
-    font-family: "Lucida Console", monospace;
+    color: darkred;
+    font-family: 'Roboto', sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    margin: 30px;
 }
 
-.logo-aside-first:hover {
-    background-color:  lightgreen;
+.banner__img {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 0.4rem;
 }
 
-.logo-aside-second {
+.banner__ad-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    margin: 30px;
+}
+
+.banner__ad-middle {
     position: sticky;
     position: -webkit-sticky;
     top: 280px;
     margin: 30px;
 }
 
-.logo-aside-second:hover {
-    background-color:  lightgreen;
-}
-
-.logo-aside-third {
+.banner__ad-bottom {
     position: sticky;
     position: -webkit-sticky;
     top: 460px;
     margin: 30px;
-   
-}
-
-.logo-aside-third:hover {
-    background-color:  lightgreen;
-}
-
-.logo-aside-fourth {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 80px;
-    margin: 30px;
-    text-align: center;
-    color:gold;
-    font-family: "Lucida Console", monospace;
-}
-
-.logo-aside-fourth:hover {
-    background-color:  lightgreen;
-}
-
-.logo-aside-fifth {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 280px;
-    margin: 30px;
-}
-
-.logo-aside-fifth:hover {
-    background-color:  lightgreen;
-}
-
-.logo-aside-sixth {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 460px;
-    margin: 30px;
-}
-
-.logo-aside-sixth:hover {
-    background-color:  lightgreen;
-}
-
-img.logo-aside-left {
-    width: 200px;
-    height: 150px;
-    border-radius: 0.4rem;
-}
-
-img.logo-aside-right {
-    width: 200px;
-    height: 150px;
-    border-radius: 0.4rem;
 }
 
 .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-family:"lycida Sans",fantasy;
     background-color:darkgray;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.middle-footer {
-    padding-left: 600px;
+.footer p {
+    padding: 0.5rem 1rem;
 }
 
-.right-footer {
-    padding-left: 400px;
+div.card {
+    background-color:whitesmoke; ;
+    color: darkred;
+    text-align: center;
+    border: 2px solid darkgrey;
+    
+}
+
+
+.card-img-top {
+    width: 200px;
+}
+
+.btn {
+    padding: 2px;
+    text-decoration: none;
 }
